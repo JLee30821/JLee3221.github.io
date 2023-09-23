@@ -66,13 +66,49 @@ nav a:hover {
 	font-size: 21px;
 }
 
+.guycoding {
+	margin-top:120px;
+	margin-bottom:120px;
+}
+
 .back-video{
-	position: absolute;
+	position: fixed;
+	object-fit:cover;
 	right: 0;
 	bottom: 0;
 	z-index: -1;
 }
 
+.table {
+	text-align: center;
+	padding-bottom: 20px;
+	color:#FFFFFF;
+	width: 30%;
+  	margin: auto;
+}
+.table2 {
+	text-align: center;
+	padding-top: 200px;
+	padding-bottom: 20px;
+	color:#FFFFFF;
+	width: 50%;
+  	margin: auto;
+}
+.table3 {
+	text-align: center;
+	padding-top: 200px;
+	padding-bottom: 20px;
+	color:#FFFFFF;
+	width: 50%;
+  	margin: auto;
+}
+.table4 {
+	text-align: center;
+	padding-top: 200px;
+	color:#FFFFFF;
+	width: 50%;
+  	margin: auto;
+}
 @media (min-aspect-ratio: 16/9) {
 	.back-video{
 		width: 100%;
@@ -85,3 +121,4 @@ nav a:hover {
 		height: 100%;
 	}
 }
+
