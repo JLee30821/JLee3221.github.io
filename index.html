@@ -16,18 +16,15 @@
   </head>
   <body>
 	  <header>
-	  <div class="container">
 		  <img src="assets/images/logo.png" alt = "logo" class="resize">
-		  <nav>
 		  <ul>
 			  <li><a href="#About">About</a></li>
 			  <li><a href="#Projects">Projects</a></li>
 			  <li><a href="#Work">Work</a></li>
 			  <li><a href="#Contact">Contact</a></li>
 			  </ul>
-		  </nav>
-		  </div>
 	  </header>
+	  <script type="text/javascript">window.addEventListener("scroll", function(){ var header = document.querySelector("header"); header.classList.toggle("sticky", window.scrollY > 0);})</script>
     <div class="container">
 		<video autoplay loop muted plays-incline class="back-video"> 
 		<source src="assets/images/background.mp4">
@@ -63,8 +60,5 @@
         <p></p>
       </div>
     </div>
-
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
   </body>
 </html>
