@@ -11,7 +11,7 @@ header {
 	position:fixed;
 	top:0;
 	Left: 150px;
-	width: 100%;
+	width: 200%;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -34,6 +34,7 @@ header.sticky
     width: 200px;
     height: auto;
 	padding-top:15px;
+	margin-left:50px;
 }
 header::after{
 	content: '';
@@ -46,6 +47,7 @@ header ul{
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
+	margin-left:400px;
 }
 
 header ul li{
