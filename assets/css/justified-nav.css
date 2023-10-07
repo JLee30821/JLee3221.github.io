@@ -34,7 +34,6 @@ header.sticky
     width: 200px;
     height: auto;
 	padding-top:15px;
-	margin-left:50px;
 }
 header::after{
 	content: '';
@@ -47,7 +46,6 @@ header ul{
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
-	margin-left:400px;
 }
 
 header ul li{
